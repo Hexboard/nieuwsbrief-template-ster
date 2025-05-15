@@ -78,6 +78,10 @@
 		padding: 4px 20px;
 	}
 
+	.article-title {
+		font-weight: 600;
+	}
+
 	.multiline {
 		padding: 10px 20px;
 	}
@@ -603,13 +607,13 @@
 					<table border="0" cellpadding="0" cellspacing="0" width="100%">
 						<tr>
 							<td align="left" width="40%">
-								<lp-rss-image width="160" height="160">
+								<a href="<lp-rss-content:link>"><lp-rss-image width="160" height="160"></a>
 							</td>
 							<td align="left" width="60%" class="article-text">
 								<table border="0" cellpadding="0" cellspacing="0" width="100%">
 									<tr>
-										<td align="left" class="text">
-											<lp-singleline lp-label="Tekst"><a href="<lp-rss-content:link>"><lp-rss-content:title></a></lp-singleline>
+										<td align="left" class="article-title">
+											<a href="<lp-rss-content:link>"><lp-rss-content:title></a>
 										</td>
 									</tr>
 									<tr>
